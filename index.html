@@ -1,310 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
-    <meta charset="UTF-8">
+    <title>登录</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>天气看板</title>
+    
+    <meta name="description" content="红星大学教务管理系统">
+    <meta name="author" content="丁彪">    
+    <link rel="shortcut icon" href="./assets/favicon.ico"> 
+    
+    <!-- FontAwesome JS-->
+    <script defer src="./resources/plugins/fontawesome/js/all.min.js"></script>
+    
+    <!-- App CSS -->  
+    <link id="theme-style" rel="stylesheet" href="./resources/css/portal.css">
+	<script src="./js/jquery.js"></script>
 
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="icon" href="./assets/icon.png">
+	<style>
+		.logo-icon{
+			width: 100px;
+		}
+		.form-title{
+			color: green;
+			font-family: 楷体;
+			font-size: 35px;
+			font-weight: bold;
+		}
+	</style>
 
-    <script src="./js/jquery.js"></script>
-    <script src="./js/index.js"></script>
-</head>
-<body>
-    <div class="container">
-        
-        <div class="weather-query">
-            <div class="weather-top">
-                <img src="./assets/logo.jpg" alt="图片" class="logo">
-                <div class="form">
-                    <input type="text" class="input-city" placeholder="请输入要查询的城市" onsubmit="query()">
-                    <span class="query-button" onclick="query()">搜索</span>
-                    <ul class="hot-city">
-                        <li><a href="#" onclick="get_data('110114')">昌平区</a></li>
-                        <li><a href="#" onclick="get_data('110108')">海淀区</a></li>
-                        <li><a href="#" onclick="get_data('360821')">吉安县</a></li>
-                        <li><a href="#" onclick="get_data('440300')">深圳市</a></li>
-                        <li><a href="#" onclick="get_data('310114')">嘉定区</a></li>
-                        <li><a href="#" onclick="get_data('441900')">东莞市</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="weather-bottom">
-                <div class="city-province"><img src="./assets/地址.svg">城市: <span>海淀区&nbsp;&nbsp;北京市</span></div>
-                <div class="predict-time"><img src="./assets/时间.svg">预报时间: <span>09:48:25</span></div>
-                <ul class="cast-inform">
-                    <li>
-                        <div class="date">9月29日</div>
-                        <div class="weekday">周五</div>
-                        <div class="daycast">
-                            <img src="./assets/weather_icon/多云.svg" class="weather-icon">
-                            <div class="weather-type">多云</div>
-                            <div class="day-temp">日温: 29℃</div>
-                            <div class="wind">北风&nbsp;&nbsp;1-3级</div>
-                        </div>
-                        <div class="nightcast">
-                            <img src="./assets/weather_icon/多云.svg" class="weather-icon">
-                            <div class="weather-type">多云</div>
-                            <div class="night-temp">夜温: 16℃</div>
-                            <div class="wind">北风&nbsp;&nbsp;1-3级</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="date">9月30日</div>
-                        <div class="weekday">周五</div>
-                        <div class="daycast">
-                            <img src="./assets/weather_icon/多云.svg" class="weather-icon">
-                            <div class="weather-type">多云</div>
-                            <div class="day-temp">日温: 29℃</div>
-                            <div class="wind">北风&nbsp;&nbsp;1-3级</div>
-                        </div>
-                        <div class="nightcast">
-                            <img src="./assets/weather_icon/多云.svg" class="weather-icon">
-                            <div class="weather-type">多云</div>
-                            <div class="night-temp">夜温: 16℃</div>
-                            <div class="wind">北风&nbsp;&nbsp;1-3级</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="date">10月1日</div>
-                        <div class="weekday">周五</div>
-                        <div class="daycast">
-                            <img src="./assets/weather_icon/多云.svg" class="weather-icon">
-                            <div class="weather-type">多云</div>
-                            <div class="day-temp">日温: 29℃</div>
-                            <div class="wind">北风&nbsp;&nbsp;1-3级</div>
-                        </div>
-                        <div class="nightcast">
-                            <img src="./assets/weather_icon/多云.svg" class="weather-icon">
-                            <div class="weather-type">多云</div>
-                            <div class="night-temp">夜温: 16℃</div>
-                            <div class="wind">北风&nbsp;&nbsp;1-3级</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="date">10月2日</div>
-                        <div class="weekday">周五</div>
-                        <div class="daycast">
-                            <img src="./assets/weather_icon/多云.svg" class="weather-icon">
-                            <div class="weather-type">多云</div>
-                            <div class="day-temp">日温: 29℃</div>
-                            <div class="wind">北风&nbsp;&nbsp;1-3级</div>
-                        </div>
-                        <div class="nightcast">
-                            <img src="./assets/weather_icon/多云.svg" class="weather-icon">
-                            <div class="weather-type">多云</div>
-                            <div class="night-temp">夜温: 16℃</div>
-                            <div class="wind">北风&nbsp;&nbsp;1-3级</div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
+</head> 
 
-        <div class="weather-tool">
-            <div class="weather-left">
-                <div id="myCity" class="city-name">
-                    海淀区
-                </div>
-                <button class="change-city" onclick="show_dialog()">
-                    切换
-                </button>
-                <div class="temperature">
-                    <div id="myTemperature" class="temperature-number">
-                        19
-                    </div>
-                    <div class="temperature-unit">℃</div>
-                </div>
-                <div class="weather-info">
-                    <img src="./assets/weather_icon/多云.svg" alt="多云" class="weather-icon">
-                    <span id="myWeather" class="black-font">多云</span>
-                </div>
-            </div>
-            <div class="weather-right">
-                <div id="update-time">
-                    预报时间&nbsp;&nbsp;<span id="myUpdateTime" class="black-font">09:11:27</span>
-                    <img src="./assets/更新.svg" alt="更新" class="update-icon" onclick="get_data($('#selectCity').val())">
-                </div>
-                <div class="temperature-limit">
-                    日温&nbsp;<span id="dayTemp" class="black-font">15</span>℃&nbsp;&nbsp;夜温&nbsp;<span id="nightTemp" class="black-font">26</span>℃
-                </div>
-                <div>
-                    <span id="myWindDirection">东风</span>&nbsp;&nbsp;&nbsp;&nbsp;<span id="myWindPower" class="black-font">1级</span>
-                </div>
-                <div>
-                    湿度&nbsp;&nbsp;&nbsp;&nbsp;<span id="myHumidity" class="black-font">60%</span>
-                </div>
-            </div>
-        </div>
+<body class="app app-login p-0">    	
+    <div class="row g-0 app-auth-wrapper">
+	    <div class="col-12 col-md-7 col-lg-6 auth-main-col text-center p-5">
+		    <div class="d-flex flex-column align-content-end">
+			    <div class="app-auth-body mx-auto">	
+				    <div class="app-auth-branding mb-4">
+						<img class="logo-icon" src="./resources/images/app-logo.svg" alt="logo">
+						<div class="form-title">
+							红星大学教务管理系统
+						</div>
+					</div>
+					<h2 class="auth-heading text-center mb-5">账号登录</h2>
+			        <div class="auth-form-container text-start">
+						<form id="signin-form" class="auth-form login-form">         
+							<div class="email mb-3">
+								<label for="signin-email" style="display: inline-block;">姓名：</label>
+								<input id="signin-email" name="username" type="text" class="form-control signin-email" style="display: inline-block;" placeholder="请输入" required="required">
+							</div><!--//form-group-->
+							<div class="password mb-3">
+								<label for="signin-password" style="display: inline-block;">密码：</label>
+								<input id="signin-password" name="password" type="password" class="form-control signin-password" style="display: inline-block;" placeholder="请输入密码" required="required">
+								<div class="extra mt-3 row justify-content-between">
+									<div class="col-6"></div>
+									<div class="col-6">
+										<div class="form-check" style="float: right;">
+											<input class="form-check-input" type="checkbox" value="" id="RememberPassword">
+											<label class="form-check-label" for="RememberPassword">
+											记住账号
+											</label>
+										</div>
+									</div><!--//col-6-->
+									<!-- <div class="col-6"> -->
+										<!-- <div class="forgot-password text-end"> -->
+											<!-- <a href="reset-password.html">忘记密码？</a> -->
+										<!-- </div> -->
+									<!-- </div> //col-6 -->
+								</div><!--//extra-->
+							</div><!--//form-group-->
+							<div class="text-center">
+								<button type="submit" class="btn app-btn-primary w-100 theme-btn mx-auto">登录</button>
+							</div>
+						</form>
+						
+						<div class="auth-option text-center pt-5">没有账号？<a class="text-link" href="signup.html" >点击注册</a>.</div>
+					</div><!--//auth-form-container-->	
 
-        <div id="dialogmask" class="dialogmask opacity"></div>
-        <div id="dialog" class="box" style="display: none">
-            <div id="dialog_title" class="dialogtitle">
-                <label style="padding-left: 10px">切换城市</label>
-                <label style="float: right;padding-right: 10px;" onclick="hideDialog()">X</label>
-            </div>
-            
-            <div id="dialog_content" class="dialogcontent">
-                <div class="logcontent">
-                    <p>请选择城市:</p>
-                        <select id="selectCity">
-                            <option value="110114" selected>昌平区</option>
-                            <option value="110108">海淀区</option>
-                            <option value="360821">吉安县</option>
-                            <option value="441900">东莞市</option>
-                            <option value="440300">深圳市</option>
-                            <option value="310114">嘉定区</option>
-                        </select>
-                    <p><button onclick="get_data($('#selectCity').val())">确定</button><button onclick="hideDialog()">取消</button></p>
-                </div>
-            </div>
-        </div>
-    </div>
+			    </div><!--//auth-body-->
+		    
+			    <footer class="app-auth-footer">
+				    <div class="container text-center py-3">
+			        <small class="copyright">红星大学&nbsp;&copy;201-2023&nbsp;All Rights Reserved</small>
+				       
+				    </div>
+			    </footer><!--//app-auth-footer-->	
+		    </div><!--//flex-column-->   
+	    </div><!--//auth-main-col-->
+	    <div class="col-12 col-md-5 col-lg-6 h-100 auth-background-col">
+		    <div class="auth-background-holder">
+		    </div>
+		    <div class="auth-background-mask"></div>
+		    <div class="auth-background-overlay p-3 p-lg-5">
+			    <div class="d-flex flex-column align-content-end h-100">
+				    <div class="h-100"></div>
+				    <div class="overlay-content p-3 p-lg-4 rounded">
+					    <h5 class="mb-3 overlay-title">红星大学</h5>
+					    <p>红星大学是地方政府和教育厅共建的一所本科院校，坐落于道教圣地龙虎山脚下，校园环境秀美，师资力量雄厚，毕业生工作无忧！</p>
+						<p>欢迎广大学子报考红星大学！</p>
+				    </div>
+				</div>
+		    </div><!--//auth-background-overlay-->
+	    </div><!--//auth-background-col-->
+    
+    </div><!--//row-->
+
+	<script>
+		var Bmob = require("./js/Bmob-2.5.1.min.js");
+		Bmob.initialize("c2b47d99d8fa0cca", "1234567891012345");
+		Bmob.debug(true);
+
+		$(function () {
+
+			$('#signin-form').submit(function (e) {
+				
+				// 阻止表单的提交和页面的跳转
+				e.preventDefault();
+
+				var data = $(this).serialize();
+				console.log(data);
+
+				Bmob.User.login(data.username,data.password).then(res => {
+					console.log(res);
+					location.href="./dashboard.html";
+				}).catch(err => {
+					console.log(err);
+					alert("由于系统问题，暂时无法注册！");
+				});
+			})
+		})
+	</script>
+
 </body>
-<script>
-
-    get_data("110114");
-
-    function get_data(city_code){
-        $.get("https://restapi.amap.com/v3/weather/weatherInfo", {"key":"bf29f9e3862f387e494e96b62a1e0e83", "city":city_code, "extensions":"base"}, function(data){
-        if(data.infocode === "10000") {
-
-            var updateTime = data.lives[0].reporttime.substr(11, 18);
-            var weather = data.lives[0].weather;
-            var windDirection = data.lives[0].winddirection + '风';
-            var windPower = data.lives[0].windpower.substr(1, 1) + '级';
-            var humidity = data.lives[0].humidity + '%';
-
-            var icon_url = './assets/weather_icon/' + weather + '.svg';
-
-            $("#myCity").html(data.lives[0].city);
-            $("#myUpdateTime").html(updateTime)
-            $("#myWeather").html(weather);
-            $("#myTemperature").html(data.lives[0].temperature);
-            $("#myWindDirection").html(windDirection);
-            $("#myWindPower").html(windPower);
-            $("#myHumidity").html(humidity);
-
-            $(".weather-icon").attr('src', icon_url)
-        }
-    });
-
-        $.get("https://restapi.amap.com/v3/weather/weatherInfo", {"key":"bf29f9e3862f387e494e96b62a1e0e83", "city":city_code, "extensions":"all"}, function(data){
-        if(data.infocode === "10000") {
-
-            $("#dayTemp").html(data.forecasts[0].casts[0].daytemp);
-            $("#nightTemp").html(data.forecasts[0].casts[0].nighttemp);
-
-            $(".city-province span").html(data.forecasts[0].city + "&nbsp;&nbsp;" + data.forecasts[0].province);
-            $(".predict-time span").html(data.forecasts[0].reporttime.substr(11, 18));
-            
-            let i = 0;
-            $(".date").each(function() {
-                $(this).html(data.forecasts[0].casts[i].date)
-                i++;
-            });
-
-            const weekarry = ['星期一', '星期二', '星期三', '星期四', '星期五', '星期六', '星期日'];
-            i = 0;
-            $(".weekday").each(function() {
-                $(this).html(weekarry[parseInt(data.forecasts[0].casts[i].week) - 1])
-                i ++;
-            });
-
-            i = 0;
-            $(".cast-inform .weather-icon:even").each(function() {
-                $(this).attr('src', './assets/weather_icon/' + data.forecasts[0].casts[i].dayweather + '.svg');
-                i ++;
-            });
-
-            i = 0;
-            $(".cast-inform .weather-icon:odd").each(function() {
-                $(this).attr('src', './assets/weather_icon/' + data.forecasts[0].casts[i].nightweather + '.svg');
-                i ++;
-            });
-
-            i = 0;
-            $(".cast-inform .weather-type:even").each(function() {
-                $(this).html(data.forecasts[0].casts[i].dayweather);
-                i ++;
-            });
-
-            i = 0;
-            $(".cast-inform .weather-type:odd").each(function() {
-                $(this).html(data.forecasts[0].casts[i].nightweather);
-                i ++;
-            });
-
-            i = 0;
-            $(".day-temp").each(function() {
-                $(this).html('日温:&nbsp;' + data.forecasts[0].casts[i].daytemp + '℃');
-                i ++;
-            });
-
-            i = 0;
-            $(".night-temp").each(function() {
-                $(this).html('夜温:&nbsp;' + data.forecasts[0].casts[i].nighttemp + '℃');
-                i ++;
-            });
-
-            i = 0;
-            $(".wind:even").each(function() {
-                $(this).html(data.forecasts[0].casts[i].daywind + '风&nbsp;' + data.forecasts[0].casts[i].daypower + '级');
-                i ++;
-            });
-
-            i = 0;
-            $(".wind:odd").each(function() {
-                $(this).html(data.forecasts[0].casts[i].nightwind + '风&nbsp;' + data.forecasts[0].casts[i].nightpower + '级');
-                i ++;
-            });
-        }
-    });
-        // if(data) {
-        //     alert('更新成功！')
-        // }
-        hideDialog();
-    }
-
-    //显示弹框，并且根据结果是true或false来更改标题部分的颜色
-    function show_dialog() {//展示具体弹框内容，以及根据结果是否正确变更title的颜色
-            $("#dialog").css({display: "block"});//通过Jquery的css()更改样式
-            $("#dialogmask").css({display: "block"});
-        }
- 
-    function hideDialog() {//关闭弹框
-        $("#dialog").css({display: "none"});
-        $("#dialogmask").css({display: "none"});
-    }
-
-    function query() {
-        var cityname = $(".input-city").val();
-        const city_code = [{city: '北京市', code: '110000'}, {city: '天津市', code: '120000'},
-        {city: '哈尔滨市', code: '230100'}, {city: '长春市', code: '220100'},
-        {city: '沈阳市', code: '210100'}, {city: '石家庄市', code: '130100'},
-        {city: '郑州市', code: '410100'}, {city: '济南市', code: '370100'},
-        {city: '合肥市', code: '340100'}, {city: '武汉市', code: '420100'},
-        {city: '南昌市', code: '360100'}, {city: '南京市', code: '320100'},
-        {city: '杭州市', code: '330100'}, {city: '福州市', code: '350100'},
-        {city: '广州市', code: '440100'}, {city: '深圳市', code: '440300'},
-        {city: '大连市', code: '210200'}, {city: '青岛市', code: '370200'},
-        {city: '苏州市', code: '320500'}, {city: '厦门市', code: '350200'},
-        {city: '长沙市', code: '430100'}, {city: '西安市', code: '610100'},
-        {city: '昆明市', code: '530100'}, {city: '贵阳市', code: '520100'},
-        {city: '西宁市', code: '630100'}, {city: '南宁市', code: '450100'},
-        {city: '兰州市', code: '620100'}, {city: '呼和浩特市', code: '150100'},
-        {city: '乌鲁木齐市', code: '650100'}, {city: '太原市', code: '140100'},
-        {city: '成都市', code: '510100'}, {city: '重庆市', code: '500000'},
-        {city: '上海市', code: '310000'}, {city: '宁波市', code: '330200'},
-        {city: '拉萨市', code: '540100'}, {city: '吉安市', code: '360800'},
-        {city: '赣州市', code: '360700'}, {city: '东莞市', code: '441900'},
-        {city: '海口市', code: '460100'}, {city: '三亚市', code: '460200'},
-        {city: '香港特别行政区', code: '810000'}, {city: '澳门特别行政区', code: '820000'},
-    ]
-    var object = city_code.find(item => item.city.search(cityname) != -1);
-
-    get_data(object.code)
-    }
-</script>
-</html>
+</html> 
