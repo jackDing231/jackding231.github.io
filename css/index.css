@@ -89,12 +89,12 @@ li{
 .weather-tool .weather-icon{
     float: left;
     height: 70px;
-    margin: 0 20px;
+    margin: 0 1em;
 }
 
 .weather-right{
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 0.6em;
     text-align: center;
     line-height: 50px;
 
