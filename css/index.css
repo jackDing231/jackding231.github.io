@@ -245,8 +245,8 @@ li{
 
 .cast-inform li{
     display: inline-block;
-    width: 200px;
-    padding: 0 20px;
+    width: 220px;
+    padding: 0 10px;
     overflow: hidden;
     position: relative;
 }
