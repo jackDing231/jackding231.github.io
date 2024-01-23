@@ -1,0 +1,1 @@
+import{_ as e,o,c as t}from"./index-Mn6pKMyq.js";const c=""+new URL("404-pzG6Uyql.png",import.meta.url).href,r={},n={src:c};function s(_,a){return o(),t("img",n)}const p=e(r,[["render",s]]);export{p as default};
