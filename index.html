@@ -109,26 +109,47 @@
     </div><!--//row-->
 
 	<script>
-		Bmob.initialize("a703f79202c0cc9848b7582fc0dd67d8", "610eae8dc7a984b6a25970821f09fcb5");
+		// Bmob.initialize("a703f79202c0cc9848b7582fc0dd67d8", "610eae8dc7a984b6a25970821f09fcb5");
 
-		$(function () {
+		// $(function () {
 
-			$('#signin-form').submit(function (e) {
+		// 	$('#signin-form').submit(function (e) {
 				
-				// 阻止表单的提交和页面的跳转
-				e.preventDefault();
+		// 		// 阻止表单的提交和页面的跳转
+		// 		e.preventDefault();
 
-				var data = $(this).serializeArray();
+		// 		var data = $(this).serializeArray();
 
-				Bmob.User.login(data[0].value, data[1].value).then(res => {
-					console.log(res);
-					location.href="./dashboard.html";
-				}).catch(err => {
-					console.log(err);
-					alert("用户名或密码错误！");
-				});
-			})
+		// 		Bmob.User.login(data[0].value, data[1].value).then(res => {
+		// 			console.log(res);
+		// 			location.href="./dashboard.html";
+		// 		}).catch(err => {
+		// 			console.log(err);
+		// 			alert("用户名或密码错误！");
+		// 		});
+		// 	})
+		// })
+
+		$('#signin-form').submit(function (e) {
+				
+			// 阻止表单的提交和页面的跳转
+			e.preventDefault();
+
+			var data = $(this).serializeArray(); // 获取表单数据
+
+			if (authenticator(data[0].value, data[1].value)) {
+				location.href="./dashboard.html";
+			} else {
+				alert("用户名或密码错误！");
+			}
 		})
+
+		function authenticator(username, password) {
+			if (username === "admin" && password === "123") {
+				return true;
+			}
+			return false;
+		}
 	</script>
 
 </body>

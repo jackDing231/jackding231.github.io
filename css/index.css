@@ -294,3 +294,9 @@ li{
 .nightcast{
     float: right;
 }
+
+.live-video{
+    width: 620px;
+    padding: 0 10px;
+    margin: 20px auto;
+}
