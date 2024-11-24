@@ -1,11 +1,11 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title: jack Ding
+SEOTitle: jack Ding的博客 | jack Ding's Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
-url: "https://huangxuan.me" # your host, for absolute URL
+email: dingyuan5520@gmail.com
+description: "这里是 @jackDing 的个人博客，做一个有趣的人"
+keyword: "jack Ding, 博客, 个人网站, 机械, 研究生, 中国"
+url: "https://jackding231.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: huxpro
-zhihu_username: huxpro
-github_username: huxpro
-twitter_username: huxpro
+# weibo_username: huxpro
+# zhihu_username: huxpro
+github_username: jackDing231
+# twitter_username: huxpro
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -74,8 +74,8 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "做一个有趣的人 <br> "
+sidebar-avatar: https://himg.bdimg.com/sys/portrait/hotitem/wildkid/28 # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
@@ -91,12 +91,12 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "乱序（Midare）", href: "http://mida.re/" },
-    { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
-    { title: "Kun Qian", href: "http://kunq.me" },
-    { title: "Sherry Woo", href: "https://sherrywoo.me/" },
-    { title: "SmdCn", href: "http://blog.smdcn.net" },
-    { title: "JiyinYiyong", href: "http://tiye.me/" },
-    { title: "DHong Say", href: "http://dhong.co" },
-    { title: "尹峰以为", href: "http://ingf.github.io/" },
+    { title: "Nickess", href: "https://space.bilibili.com/1593418296/" },
+    { title: "龙四爷攻略组", href: "https://space.bilibili.com/307353874/" },
+    { title: "下饭の绝风", href: "https://space.bilibili.com/486846569/" },
+    { title: "冰糖小堃", href: "https://space.bilibili.com/2957050/" },
+    { title: "耿同学讲故事", href: "https://space.bilibili.com/1732848825/" },
+    { title: "你的影月月", href: "https://space.bilibili.com/431073645/" },
+    { title: "黑马程序员", href: "https://space.bilibili.com/37974444/" },
+    { title: "同济子豪兄", href: "https://space.bilibili.com/1900783/" },
   ]
