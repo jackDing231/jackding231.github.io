@@ -1,156 +1,46 @@
-<!DOCTYPE html>
-<html lang="en"> 
-<head>
-    <title>登录</title>
-    
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <meta name="description" content="红星大学教务管理系统">
-    <meta name="author" content="丁彪">    
-    <link rel="shortcut icon" href="./assets/favicon.ico"> 
-    
-    <!-- FontAwesome JS-->
-    <script defer src="./resources/plugins/fontawesome/js/all.min.js"></script>
-    
-    <!-- App CSS -->  
-    <link id="theme-style" rel="stylesheet" href="./resources/css/portal.css">
-	<script src="./js/jquery.js"></script>
-	<script src="./js/Bmob-1.6.1.min.js"></script>
+---
+layout: page
+description: "「离开世界之前 一切都是过程」"
+---
 
-	<style>
-		.logo-icon{
-			width: 100px;
-		}
-		.form-title{
-			color: green;
-			font-family: 楷体;
-			font-size: 35px;
-			font-weight: bold;
-		}
-	</style>
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {% if post.lang == 'en' %}
+                {{ post.content | strip_html | truncate:300 }}
+            {% else %}
+                {{ post.content | strip_html | truncate:200 }}
+            {% endif %}
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+</div>
+<hr>
+{% endfor %}
 
-</head> 
-
-<body class="app app-login p-0">    	
-    <div class="row g-0 app-auth-wrapper">
-	    <div class="col-12 col-md-7 col-lg-6 auth-main-col text-center p-5">
-		    <div class="d-flex flex-column align-content-end">
-			    <div class="app-auth-body mx-auto">	
-				    <div class="app-auth-branding mb-4">
-						<img class="logo-icon" src="./resources/images/app-logo.svg" alt="logo">
-						<div class="form-title">
-							红星大学教务管理系统
-						</div>
-					</div>
-					<h2 class="auth-heading text-center mb-5">账号登录</h2>
-			        <div class="auth-form-container text-start">
-						<form id="signin-form" class="auth-form login-form">         
-							<div class="email mb-3">
-								<label for="signin-email" style="display: inline-block;">姓名：</label>
-								<input id="signin-email" name="username" type="text" class="form-control signin-email" style="display: inline-block;" placeholder="请输入" required="required">
-							</div><!--//form-group-->
-							<div class="password mb-3">
-								<label for="signin-password" style="display: inline-block;">密码：</label>
-								<input id="signin-password" name="password" type="password" class="form-control signin-password" style="display: inline-block;" placeholder="请输入密码" required="required">
-								<div class="extra mt-3 row justify-content-between">
-									<div class="col-6"></div>
-									<div class="col-6">
-										<div class="form-check" style="float: right;">
-											<input class="form-check-input" type="checkbox" value="" id="RememberPassword">
-											<label class="form-check-label" for="RememberPassword">
-											记住账号
-											</label>
-										</div>
-									</div><!--//col-6-->
-									<!-- <div class="col-6"> -->
-										<!-- <div class="forgot-password text-end"> -->
-											<!-- <a href="reset-password.html">忘记密码？</a> -->
-										<!-- </div> -->
-									<!-- </div> //col-6 -->
-								</div><!--//extra-->
-							</div><!--//form-group-->
-							<div class="text-center">
-								<button type="submit" class="btn app-btn-primary w-100 theme-btn mx-auto">登录</button>
-							</div>
-						</form>
-						
-						<div class="auth-option text-center pt-5">没有账号？<a class="text-link" href="signup.html" >点击注册</a>.</div>
-					</div><!--//auth-form-container-->	
-
-			    </div><!--//auth-body-->
-		    
-			    <footer class="app-auth-footer">
-				    <div class="container text-center py-3">
-			        <small class="copyright">红星大学&nbsp;&copy;201-2023&nbsp;All Rights Reserved</small>
-				       
-				    </div>
-			    </footer><!--//app-auth-footer-->	
-		    </div><!--//flex-column-->   
-	    </div><!--//auth-main-col-->
-	    <div class="col-12 col-md-5 col-lg-6 h-100 auth-background-col">
-		    <div class="auth-background-holder">
-		    </div>
-		    <div class="auth-background-mask"></div>
-		    <div class="auth-background-overlay p-3 p-lg-5">
-			    <div class="d-flex flex-column align-content-end h-100">
-				    <div class="h-100"></div>
-				    <div class="overlay-content p-3 p-lg-4 rounded">
-					    <h5 class="mb-3 overlay-title">红星大学</h5>
-					    <p>红星大学是地方政府和教育厅共建的一所本科院校，坐落于道教圣地龙虎山脚下，校园环境秀美，师资力量雄厚，毕业生工作无忧！</p>
-						<p>欢迎广大学子报考红星大学！</p>
-				    </div>
-				</div>
-		    </div><!--//auth-background-overlay-->
-	    </div><!--//auth-background-col-->
-    
-    </div><!--//row-->
-
-	<script>
-		// Bmob.initialize("a703f79202c0cc9848b7582fc0dd67d8", "610eae8dc7a984b6a25970821f09fcb5");
-
-		// $(function () {
-
-		// 	$('#signin-form').submit(function (e) {
-				
-		// 		// 阻止表单的提交和页面的跳转
-		// 		e.preventDefault();
-
-		// 		var data = $(this).serializeArray();
-
-		// 		Bmob.User.login(data[0].value, data[1].value).then(res => {
-		// 			console.log(res);
-		// 			location.href="./dashboard.html";
-		// 		}).catch(err => {
-		// 			console.log(err);
-		// 			alert("用户名或密码错误！");
-		// 		});
-		// 	})
-		// })
-
-		$('#signin-form').submit(function (e) {
-				
-			// 阻止表单的提交和页面的跳转
-			e.preventDefault();
-
-			var data = $(this).serializeArray(); // 获取表单数据
-
-			if (authenticator(data[0].value, data[1].value)) {
-				location.href="./dashboard.html";
-			} else {
-				alert("用户名或密码错误！");
-			}
-		})
-
-		function authenticator(username, password) {
-			if (username === "admin" && password === "123") {
-				return true;
-			}
-			return false;
-		}
-	</script>
-
-</body>
-</html> 
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
