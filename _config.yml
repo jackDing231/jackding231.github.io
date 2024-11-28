@@ -13,9 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-# weibo_username: huxpro
-# zhihu_username: huxpro
+weibo_username: 7277954044
+zhihu_username: shen-jing-wa-28-79
 github_username: jackDing231
+bilibili_username: 508371114
+xiaohongshu_username: 615988dd000000000201cc15
 # twitter_username: huxpro
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
