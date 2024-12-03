@@ -2,29 +2,50 @@ I'm a postgraduate student in China, and it's my personal blog. I'm interested i
 
 I focus on Chinese politics, history and society. Although there are some unfair and unpleasant things in my life, I believe that we can make a better world together and I love my motherland very much.
 
-Especially, I like reading, thinking and writing. Here I list some of my favorite books, music, movies and TV series.Hope you enjoy my blog.
+Especially, I like reading, thinking and writing. Here I list some of my favorite books, music, movies, TV series and computer games. Hope you enjoy my blog.
 
-> Books:
-> 1. The Alchemist
-> 2. The Great Gatsby
-> 3. The Little Prince
-> 4. The Lord of the Rings
-> 5. The Hobbit
+> books:
+>
+> 1. Contemporary Chinese Government and Politics (Second Edition) by Jing Yuejin
+> 2. All Quiet on the Western Front by Erich Maria Remarque
+> 3. Shantaram by Gregory David Roberts
+> 4. Decisive Moments in History by Stefan Zweig
+> 5. Methods of Machine Learning by Li Hang
+> 6. Snow Mountain and Vast Land by Yang Zhijun
 
-> Music:
-> 1. The Beatles
-> 2. Taylor Swift
-> 3. Ed Sheeran
-> 4. Taylor Swift
+> music:
+>
+> 1. Frozen
+> 2. Alliance of Middle-Aged People
+> 3. Rivers of Babylon
+> 4. Right Here Waiting for you
+> 5. Be What You Wanna Be
 
-> Movies:
-> 1. The Matrix
-> 2. The Matrix Reloaded
-> 3. The Matrix Revolutions
-> 4. The Matrix Resurrections
+> movies:
+>
+> 1. Oppenheimer
+> 2. The Matrix
+> 3. Apocalypse Now
+> 4. Journey to the Center of the Earth
+> 5. Hop
+> 6. Harry Potter
+> 7. Love Actually
 
-> TV Series:
-> 1. Game of Thrones
-> 2. Breaking Bad
-> 3. The Office
-> 4. Friends
+> TV series:
+>
+> 1. The Big Bang Theory: Young Sheldon (Season 1)
+> 2. Queer as Folk
+> 3. 2 Broke Girls (Season 2)
+> 4. Good Luck Charlie (Season 1)
+> 5. Shameless (Season 6)
+
+> computer games：
+>
+> 1. Red Dead Redemption
+> 2. God of War 5
+> 3. Uncharted 4: A Thief's End
+> 4. Ratchet & Clank
+> 5. Genshin Impact
+> 6. The Witcher 2: Assassins of Kings
+> 7. Assassin's Creed Origins
+> 8. Grand Theft Auto: San Andreas
