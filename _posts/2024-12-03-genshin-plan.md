@@ -1,13 +1,12 @@
 ---
 layout:     post
 title:      "近期原神规划"
-date:       2024-12-03
+date:       2024-12-02
 author:     "Jack Ding"
-header-img:	"img/post-bg-read.jpg"
-catalog:	true
+header-img: "img/post-bg-weibo.jpg"
 tags:
-    - reading
-	- book
+    - genshin
+    - game
 ---
 
-
+ad

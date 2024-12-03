@@ -3,11 +3,10 @@ layout:     post
 title:      "读《雪山大地》有感"
 date:       2024-12-03
 author:     "Jack Ding"
-header-img:	"img/post-bg-read.jpg"
-catalog:	true
+header-img: "img/post-bg-read.jpg"
 tags:
     - reading
-	- book
+    - books
 ---
 
 > 《雪山大地》是中国当代作家杨志军创作的长篇小说，首次发表于《中国作家》2022年第11期。
