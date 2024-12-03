@@ -3,7 +3,7 @@ layout:     post
 title:      "12月2日微博浏览总结"
 date:       2024-12-02
 author:     "Jack Ding"
-header-img: "img/post-bg-weibo.jpg"
+header-img: "img/post-bg-happy.jpg"
 header-mask: 0.2
 tags:
     - weibo
