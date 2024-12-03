@@ -6,9 +6,9 @@ author:     "Jack Ding"
 header-img: "img/post-bg-weibo.jpg"
 tags:
     - weibo
-	- politic
-	- international
-	- society
+    - politics
+    - society
+    - international
 ---
 
 前段时间有很多事情，一直没有集中时间来刷微博，今天终于得空，来看看国内外又发生了什么有意思的事情，又有什么有趣的思想，转载如下：
