@@ -17,7 +17,7 @@ tags:
 
 2. 信用多么宝贵！
 
-   ![人无信不立](img/in-post/post-weibo-credit.jpg)
+   ![人无信不立](/img/in-post/post-weibo-credit.jpg)
 
 3. 我支持吴柳芳，因为她真实；但我不支持董宇辉，因为他虚伪！
 
@@ -41,6 +41,5 @@ tags:
    民企:比亚迪，吉利，长城
    再加上新势力:蔚小理，华米零六家
    目前来看就这16家有机会活下来`新能源汽车`、`New Energy Vehicle`、`NEV`
-
-​      ![新能源汽车](/img/in-post/post-weibo-car.jpg)
-
+   
+   ![新能源汽车](/img/in-post/post-weibo-car.jpg)
