@@ -4,6 +4,7 @@ title:      "读《雪山大地》有感"
 date:       2024-12-03
 author:     "Jack Ding"
 header-img: "img/post-bg-read.jpg"
+header-mask: 0.3
 tags:
     - reading
     - books
