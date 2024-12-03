@@ -17,7 +17,7 @@ tags:
 
 2. 信用多么宝贵！
 
-   <img src="assets/post-weibo-credit.jpg" alt="人无信不立" style="zoom:50%;" />
+   ![人无信不立](img/in-post/post-weibo-credit.jpg)
 
 3. 我支持吴柳芳，因为她真实；但我不支持董宇辉，因为他虚伪！
 
@@ -42,4 +42,5 @@ tags:
    再加上新势力:蔚小理，华米零六家
    目前来看就这16家有机会活下来`新能源汽车`、`New Energy Vehicle`、`NEV`
 
-<img src="assets/post-weibo-car.jpg" style="zoom:50%;" />
+​      ![新能源汽车](/img/in-post/post-weibo-car.jpg)
+
