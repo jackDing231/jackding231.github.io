@@ -1,10 +1,10 @@
 ---
 layout:     post
 title:      "读《雪山大地》有感"
-date:       2024-11-28
+date:       2024-12-3
 author:     "Jack Ding"
 header-img:	"img/post-bg-read.jpg"
-catalog: true
+catalog:	true
 tags:
     - reading
 	- book
