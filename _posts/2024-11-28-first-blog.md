@@ -4,7 +4,7 @@ title:      "我的第一篇博客"
 subtitle:   "\"Hello World, Hello Blog\""
 date:       2024-11-28
 author:     "Jack Ding"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-daily.jpg"
 catalog:    true
 tags:
     - daily
