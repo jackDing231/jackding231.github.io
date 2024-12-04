@@ -5,7 +5,6 @@ subtitle:   "\"Hello World, Hello Blog\""
 date:       2024-11-28
 author:     "Jack Ding"
 header-img: "img/post-bg-daily.jpg"
-catalog:    true
 tags:
     - daily
 ---

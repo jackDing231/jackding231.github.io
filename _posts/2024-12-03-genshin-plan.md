@@ -5,7 +5,7 @@ date:       2024-12-02
 author:     "Jack Ding"
 header-img: "img/post-bg-genshin.jpg"
 header-mask: 0.3
-catalog:    false
+no-catalog: true
 tags:
     - genshin
     - game

@@ -5,6 +5,7 @@ date:       2024-12-02
 author:     "Jack Ding"
 header-img: "img/post-bg-happy.jpg"
 header-mask: 0.2
+no-catalog: true
 tags:
     - weibo
     - politics
@@ -150,7 +151,7 @@ tags:
 
 20. 高校经济学界的教育与科研走上了歧路：它不是追求真理，而是追求发表。这导致整个高校经济学界失去存在的价值。 ——朱海就
 
-    > 既不在做学术，也不在教学用心～![[允悲]](img/in-post/2018new_kuxiao_org.png)不知道都在生产啥～
+    > 既不在做学术，也不在教学用心～![[允悲]](img/in-post/2018new_kuxiao_org.jpg)不知道都在生产啥～
     >
     > 不限于经济学界吧？
     >
