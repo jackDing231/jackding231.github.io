@@ -105,7 +105,7 @@ tags:
 
 14. 1997年香港回归之前香港人排队办理移民手续现场 
 
-    ![香港人移民](/img/in-post/post-weibo/hongkong.jpg)
+    ![香港人移民](/img/in-post/post-weibo-hongkong.jpg)
 
     <br>
 
@@ -115,7 +115,7 @@ tags:
 
 16. 舒服一天是一天！
 
-    ![猪交配](/img/in-post/post-weibo/pig.jpg)
+    ![猪交配](/img/in-post/post-weibo-pig.jpg)
 
     <br>
 
