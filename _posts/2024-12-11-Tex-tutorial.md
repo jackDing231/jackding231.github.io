@@ -5,6 +5,7 @@ subtitle:   "LaTex Tutorial"
 date:       2024-12-11
 author:     "Jack Ding"
 header-style: text
+mathjax: true
 tags:
     - LaTex
     - tutorial
