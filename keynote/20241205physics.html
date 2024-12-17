@@ -8,19 +8,41 @@
 
 		<link rel="stylesheet" href="../css/reset.css">
 		<link rel="stylesheet" href="../css/reveal.css">
-		<link rel="stylesheet" href="../css/theme/black.css">
+		<link rel="stylesheet" href="../css/theme/white.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="../plugin/highlight/monokai.css">
 	</head>
 	<body>
 		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-				<section>Slide 3</section>
-			</div>
+			<div class="slides"></div>
 		</div>
+
+		<script>
+			// 获取.main容器
+			const mainContainer = document.querySelector('.slides');
+			
+			// 使用循环生成<section>和图片标签，并添加到.main容器中
+			for (let i = 0; i < 48; i++) {
+				// 创建一个新的<section>
+				let section = document.createElement('section');
+
+				// 创建一个图片标签
+				let img = document.createElement('img');
+				
+				if(i<=9) {
+					img.src = `../img/in-keynote/20241205physics/习题PPT_0${i}.jpg`;
+				} else {
+					img.src = `../img/in-keynote/20241205physics/习题PPT_${i}.jpg`;
+				}
+
+				// 将图片标签添加到<section>中
+				section.appendChild(img);
+
+				// 将<section>添加到.main容器中
+				mainContainer.appendChild(section);
+			}
+		</script>
 
 		<script src="../js/reveal.js"></script>
 		<script src="../plugin/notes/notes.js"></script>

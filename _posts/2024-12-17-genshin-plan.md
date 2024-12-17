@@ -19,13 +19,45 @@ tags:
 
 ![原神1月日历](/img/in-post/post-genshin-calender-202501.jpg)
 
+202722057账号全角色：
+
+![全角色](/img/in-post/post-genshin-202722057-20241217.jpg)
+
+176388317账号全角色：
+
+![全角色](/img/in-post/post-genshin-176388317-20241217.jpg)
+
 12月16日深境螺旋阵容：
 
 ![原神12月16日老深渊阵容](/img/in-post/post-genshin-20241216.jpg)
 
+1月16日深境螺旋阵容：
+
+![原神1月16日老深渊阵容](/img/in-post/post-genshin-20250116.jpg)
+
 1月1日幻想真境剧诗：
 
 ![原神1月1日新深渊阵容](/img/in-post/post-genshin-20250101.jpg)
+
+202722057账号角色提升规划：
+
+![角色提升](/img/in-post/post-genshin-202722057-20250101-pre.jpg)
+
+176388317账号角色提升规划：
+
+![角色提升](/img/in-post/post-genshin-176388317-20250101-pre.jpg)
+
+2月1日幻想真境剧诗：
+
+![原神2月1日新深渊阵容](/img/in-post/post-genshin-20250201.jpg)
+
+202722057账号角色提升规划：
+
+![角色提升](/img/in-post/post-genshin-202722057-20250201-pre.jpg)
+
+176388317账号角色提升规划：
+
+![角色提升](/img/in-post/post-genshin-176388317-20250201-pre.jpg)
 
 5.3卡池：
 
