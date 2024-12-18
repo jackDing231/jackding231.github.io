@@ -12,7 +12,7 @@ tags:
     - comment
 ---
 
-小红书链接：https://www.xiaohongshu.com/discovery/item/674934830000000008004d22?source=webshare&xhsshare=pc_web&xsec_token=ABJDEah3kvVq3e_Owm0-xoRkL2AqBbrPSw8Tu-opyD7uY=&xsec_source=pc_share
+[小红书链接](https://www.xiaohongshu.com/discovery/item/674934830000000008004d22?source=webshare&xhsshare=pc_web&xsec_token=ABJDEah3kvVq3e_Owm0-xoRkL2AqBbrPSw8Tu-opyD7uY=&xsec_source=pc_share)
 
 评论区精选：
 
