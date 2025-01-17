@@ -68,7 +68,7 @@ tags:
 
 16. 这就是我讨厌百度的原因之一：自以为什么都可以买卖。 
 
-    ![非洲猪瘟](/img/in-post/post-weibo-pig-virus.jpg)
+    ![非洲猪瘟](/img/in-post/weibo/post-weibo-pig-virus.jpg)
 
 17. 突然想起来好久都没去看电影了，你有多久没看过电影了？
 
@@ -77,12 +77,12 @@ tags:
 
 18. 察罕汗国准备使用粮票了
 
-    ![食品券](/img/in-post/post-weibo-russia.jpg)
+    ![食品券](/img/in-post/weibo/post-weibo-russia.jpg)
 
 19. 英伟达CEO黄仁勋在国外访谈节目中，公然嘲讽中国人的特点就是能吃苦，忍受长期的痛苦和折磨
 
 20. 一辆车我开10年都受不了了。
     另一个角度，国家现在鼓励提前报废，给置换补贴，让你买新车，也不希望你一辆车开几十年
 
-    ![购车补贴](/img/in-post/post-weibo-new-car.jpg)
+    ![购车补贴](/img/in-post/weibo/post-weibo-new-car.jpg)
 

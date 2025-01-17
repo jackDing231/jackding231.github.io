@@ -23,7 +23,7 @@ tags:
 
 2. 信用多么宝贵！
 
-   ![人无信不立](/img/in-post/post-weibo-credit.jpg)
+   ![人无信不立](/img/in-post/weibo/post-weibo-credit.jpg)
 <br>
 
 
@@ -62,13 +62,13 @@ tags:
    再加上新势力:蔚小理，华米零六家
    目前来看就这16家有机会活下来。`新能源汽车`、`New Energy Vehicle`、`NEV`
 
-   ![新能源汽车](/img/in-post/post-weibo-car.jpg)
+   ![新能源汽车](/img/in-post/weibo/post-weibo-car.jpg)
 <br>
 
 
 10. 文革西藏拉萨，红卫兵批斗十世班禅。——文史资料-
 
-    ![批斗](/img/in-post/post-weibo-tibet.jpg)
+    ![批斗](/img/in-post/weibo/post-weibo-tibet.jpg)
 <br>
 
 
@@ -110,7 +110,7 @@ tags:
         
     这些媒体都是一条裤子。有正事的时候不见他们发声冒泡。
 
-    ![无良媒体](/img/in-post/post-weibo-press.jpg)
+    ![无良媒体](/img/in-post/weibo/post-weibo-press.jpg)
 <br>
 
 

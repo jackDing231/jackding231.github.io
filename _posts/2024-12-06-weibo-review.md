@@ -36,7 +36,7 @@ tags:
 
 5. 1961年，一张在某次会议上拍摄的珍贵照片，你知道他们都是谁吗？
 
-   ![会议图片](/img/in-post/post-weibo-mao.jpg)
+   ![会议图片](/img/in-post/weibo/post-weibo-mao.jpg)
 
    > 毛林康陈周，面和心不和!
    >
@@ -61,7 +61,7 @@ tags:
 
    这个评论这么狠？？杀人诛心
 
-   ![锐评百度](/img/in-post/post-weibo-baidu.jpg)
+   ![锐评百度](/img/in-post/weibo/post-weibo-baidu.jpg)
 
    <br>
 
@@ -91,7 +91,7 @@ tags:
 
 11. 对于生育率下降的问题，一位养猪大户提出了自己的见解
 
-    ![猪与生育率](/img/in-post/post-weibo-birth.jpg)
+    ![猪与生育率](/img/in-post/weibo/post-weibo-birth.jpg)
 
     <br>
 
@@ -105,7 +105,7 @@ tags:
 
 14. 1997年香港回归之前香港人排队办理移民手续现场 
 
-    ![香港人移民](/img/in-post/post-weibo-hongkong.jpg)
+    ![香港人移民](/img/in-post/weibo/post-weibo-hongkong.jpg)
 
     <br>
 
@@ -115,7 +115,7 @@ tags:
 
 16. 舒服一天是一天！
 
-    ![猪交配](/img/in-post/post-weibo-pig.jpg)
+    ![猪交配](/img/in-post/weibo/post-weibo-pig.jpg)
 
     <br>
 
@@ -129,7 +129,7 @@ tags:
 
 19. 三十多年了，丁聪漫画的含金量还在提高。 
 
-    ![丁聪漫画](/img/in-post/post-weibo-comic.jpg)
+    ![丁聪漫画](/img/in-post/weibo/post-weibo-comic.jpg)
 
     > 打了那么多老虎苍蝇，居然现在还是说写检讨
     >
@@ -144,5 +144,5 @@ tags:
 
 20. 劳东燕：很多信息采集是毫无必要的隐私泄漏。
 
-    ![信息采集](/img/in-post/post-weibo-private.jpg)
+    ![信息采集](/img/in-post/weibo/post-weibo-private.jpg)
 

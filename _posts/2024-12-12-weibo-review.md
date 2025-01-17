@@ -17,7 +17,7 @@ tags:
 
 2. 搬运图片！
 
-   ![契约精神](/img/in-post/post-weibo-contract.jpg)
+   ![契约精神](/img/in-post/weibo/post-weibo-contract.jpg)
 
 3. “生机勃勃的老年人，死气沉沉的年轻人和生无可恋的中年人”三句话概括了当下困境，老年人再有钱也不会消费，年轻人没钱也敢花未来钱，资源掌握在老年人手里社会不会有活力。
 
@@ -30,7 +30,7 @@ tags:
 
 7. 动态清零
 
-   ![动态清零](/img/in-post/post-weibo-zero.jpg)
+   ![动态清零](/img/in-post/weibo/post-weibo-zero.jpg)
 
 8. 经济大萧条（危机）的本质就是去中产化
    各种债务都由中产阶层买单
