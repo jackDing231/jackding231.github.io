@@ -44,7 +44,7 @@ tags:
 
 # 6月1日幻想真境剧诗
 
-![原神6月1日新深渊阵容](/img/in-post/post-genshin-20250501.jpg)
+![原神6月1日新深渊阵容](/img/in-post/post-genshin-20250601.jpg)
 
 # 5.5卡池
 
